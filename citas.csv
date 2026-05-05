@@ -1,0 +1,16 @@
+ID_Cita,Paciente,Medico,Especialidad,Fecha,Hora,Estado
+C001,carlosrojas,Dr. Perez,Neurologia,2025-05-12,09:00,Confirmada
+C002,mariafuentes,Dra. Luna,Ginecologia,2025-05-13,10:00,Confirmada
+C003,andreslopez,Dr. Castro,Cardiologia,2025-05-14,08:00,Confirmada
+C004,lauratorres,Dra. Mora,Pediatria,2025-05-15,11:00,Confirmada
+C005,juanmorales,Dr. Aguilar,Medico General,2025-05-16,14:00,Confirmada
+C006,sofiavega,Dra. Mena,Psicologia,2025-05-19,15:00,Confirmada
+C007,diegosanchez,Dr. Torres,Traumatologia,2025-05-20,08:00,Confirmada
+C008,valentinacampo,Dra. Lopez,Neurologia,2025-05-21,13:00,Confirmada
+C009,pabloherrera,Dr. Bernal,Medico General,2025-05-22,09:00,Confirmada
+C010,danielaortiz,Dra. Paz,Ginecologia,2025-05-23,10:00,Confirmada
+C011,carlosrojas,Dra. Leon,Cardiologia,2025-06-02,11:00,Confirmada
+C012,mariafuentes,Dr. Rosales,Psicologia,2025-06-03,16:00,Confirmada
+C013,andreslopez,Dr. Diaz,Pediatria,2025-06-04,08:00,Confirmada
+C014,lauratorres,Dr. Salas,Traumatologia,2025-06-05,14:00,Confirmada
+C015,juanmorales,Dr. Perez,Neurologia,2025-06-06,12:00,Confirmada
