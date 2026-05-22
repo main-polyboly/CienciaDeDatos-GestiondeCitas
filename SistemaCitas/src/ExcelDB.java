@@ -2,11 +2,7 @@ import java.io.*;
 import java.time.LocalDate;
 import java.util.*;
 
-/**
- * Capa de persistencia: CSV para datos que Java lee/escribe,
- * Excel bonito generado por generar_excel.py.
- * Las contraseñas se guardan en archivos .cred separados.
- */
+//cvs del sistema
 public class ExcelDB {
 
     static final String F_PACIENTES = "pacientes.csv";
