@@ -3,7 +3,7 @@ public class Cita {
     public String paciente;         // username del paciente
     public String nombrePaciente;   // Nombres + Apellidos del paciente
     public String medicoUsername;   // username del médico (para buscarlo en la lista)
-    public String medicoNombre;     // Nombres + Apellidos del médico (para mostrar)
+    public String medicoNombre;     // Nombres + Apellidos del médico 
     public String especialidad;
     public String fecha;
     public String hora;
