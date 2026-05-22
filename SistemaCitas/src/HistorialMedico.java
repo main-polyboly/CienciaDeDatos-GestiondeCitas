@@ -3,8 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * HistorialMedico — clase que almacena el historial clínico de un paciente.
- * Cada paciente tiene UN historial identificado por un código único (HIS-XXXXX).
+ * HistorialMedico — la clase que almacena el historial clínico de un paciente. Cada paciente tiene UN historial identificado por un código único (HIS-XXXXX).
  * El historial contiene múltiples entradas (consultas), cada una agregada por un médico.
  */
 public class HistorialMedico {
