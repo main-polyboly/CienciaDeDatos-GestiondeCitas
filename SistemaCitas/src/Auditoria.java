@@ -1,14 +1,4 @@
-/**
- * Auditoria — registro inmutable de cada acción relevante del sistema.
- * Se persiste en auditoria.csv y nunca se modifica ni elimina.
- *
- * Acciones registradas:
- *   LOGIN_OK, LOGIN_FAIL, REGISTRO_PACIENTE, REGISTRO_MEDICO,
- *   CITA_CREADA, CITA_COMPLETADA, CITA_CANCELADA, CITA_ELIMINADA,
- *   HISTORIAL_CONSULTA, HISTORIAL_ENTRADA, FACTURA_EMITIDA,
- *   FACTURA_ANULADA, RECETA_EMITIDA, RECETA_DISPENSADA,
- *   PAGO_REGISTRADO, BUSQUEDA
- */
+//se conecta al cvs de auditoria 
 public class Auditoria {
 
     public String timestamp;     // YYYY-MM-DD HH:mm:ss
