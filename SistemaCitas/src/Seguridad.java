@@ -3,15 +3,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.Base64;
 
-/**
- * Seguridad — hashing de contraseñas con SHA-256 + salt.
- * Sin librerías externas: usa java.security (JDK estándar).
- *
- * Formato guardado en .cred:
- *   username=SALT:HASH
- *
- * Donde SALT y HASH están en Base64.
- */
+//implementa los hash para evitar que las contraseñas sean rbadas, y esten seguras, tecnicamente evitamos brechas de inseguridad :)
 public class Seguridad {
 
     private static final int SALT_BYTES = 16;
@@ -37,20 +29,16 @@ public class Seguridad {
         }
     }
 
-    /**
-     * Genera la cadena completa SALT:HASH lista para guardar.
-     * Ejemplo: "abc123==:xyz789=="
-     */
+    //Genera la cadena completa SALT:HASH lista para guardar.
+    
     public static String generarCredencial(String password) {
         String salt = generarSalt();
         String hash = hashear(password, salt);
         return salt + ":" + hash;
     }
 
-    /**
-     * Verifica si password coincide con la credencial almacenada.
-     * credencial tiene formato "SALT:HASH"
-     */
+    /// Verifica si password coincide con la credencial almacenada.
+    
     public static boolean verificar(String password, String credencial) {
         if (credencial == null || !credencial.contains(":")) {
             // Compatibilidad retroactiva: credencial en texto plano (migración)
@@ -63,10 +51,7 @@ public class Seguridad {
         return hashAlmacenado.equals(hashIntento);
     }
 
-    /**
-     * Detecta si una credencial está en texto plano (legacy).
-     * Las credenciales hasheadas siempre contienen ":" y tienen >40 chars.
-     */
+    //detecta si la credencial esta en un texto plano.
     public static boolean esTextoPlano(String credencial) {
         return credencial == null || !credencial.contains(":") || credencial.length() < 40;
     }
