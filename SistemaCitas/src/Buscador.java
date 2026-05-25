@@ -1,12 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Buscador — utilidad de búsqueda centralizada.
- * Permite buscar por nombre, cédula, username, código de historial,
- * ID de cita, ID de factura, o código de receta.
- * Retorna listas de resultados tipados.
- */
+//es un buscador para encontrar rapidamente a los pacientes
 public class Buscador {
 
     /** Busca pacientes por nombre parcial, cédula o username */
