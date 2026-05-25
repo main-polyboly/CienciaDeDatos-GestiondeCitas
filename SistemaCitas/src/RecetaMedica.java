@@ -1,13 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * RecetaMedica — prescripción médica emitida por un médico
- * tras una consulta, ligada a una cita e historial.
- *
- * Cada receta tiene 1..N líneas de medicamento (ItemReceta).
- * Código único: REC-YYMMDD-XXXXX
- */
+//aqui se encarga de poner el medicamento que el paciente debe tomar o comprar en este caso
 public class RecetaMedica {
 
     // ─── Línea de medicamento ────────────────────────────────────
